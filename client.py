@@ -48,6 +48,7 @@ def main(host, port):
 
 
 if __name__ == "__main__":
+   # 获取并解析命令行参数
     try:
         host = sys.argv[1]
         port = int(sys.argv[2])
